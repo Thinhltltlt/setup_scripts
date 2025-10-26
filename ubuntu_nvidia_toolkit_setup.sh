@@ -6,10 +6,6 @@
 # configures the NVIDIA Docker repository on Ubuntu/Debian.
 # ======================================================
 
-set -e  # Exit immediately if a command exits with a non-zero status
-set -o pipefail  # Exit on pipe errors
-set -u  # Treat unset variables as errors
-
 echo "=== Updating system and installing dependencies ==="
 sudo apt-get update && sudo apt-get install -y --no-install-recommends \
   curl \
