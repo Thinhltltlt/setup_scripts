@@ -45,4 +45,6 @@ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.li
 echo "=== Final update ==="
 sudo apt-get update
 
-echo "✅ Installation complete! You can now install and use nvidia-docker."
+echo "Installation complete! You can now install and use nvidia-docker."
+
+supervisorctl reload
